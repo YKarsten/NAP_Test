@@ -8,3 +8,14 @@ mta-*
 resources
 archive.zip
 .*_mta_build_tmp
+
+# Ignore SSH private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore other sensitive or unwanted files
+.env
+node_modules/
+dist/
